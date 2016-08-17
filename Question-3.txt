@@ -16,6 +16,8 @@ public static String compress(String input){
 					count = 0;
 					continue;
 				}
+			}else{
+				count_in= count_in+String.valueOf(input.charAt(i-1))+(count+1);
 			}
 
 
