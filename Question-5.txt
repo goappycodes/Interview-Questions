@@ -1,0 +1,2 @@
+Fragments are nice. I like them.
+Using fragments,we are able to handle different design for different screen size such as tabs and phones. We just need to place the elements in proper position for our devices.

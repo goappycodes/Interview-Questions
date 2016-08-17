@@ -1,0 +1,25 @@
+public static String compress(String input){
+		int count=0;
+		String count_in="";
+		for (int i=0;i<input.length();i++){
+
+			if(i+1<input.length()) {
+				if (input.charAt(i) == input.charAt(i + 1)) {
+					count++;
+				} else {
+					if(i==input.length()-1) {
+						count_in= count_in+String.valueOf(input.charAt(i))+(count+1);
+					}else{
+						count_in= count_in+String.valueOf(input.charAt(i-1))+(count+1);
+					}
+
+					count = 0;
+					continue;
+				}
+			}
+
+
+		}
+		
+		return count_in;
+	}

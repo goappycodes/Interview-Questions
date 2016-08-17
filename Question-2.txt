@@ -1,0 +1,9 @@
+For opening the Map App from my own App,
+
+I need to first define an url with all the details I have:
+
+String url = http://maps.google.com/maps/address+city+state+ZIP
+
+Then we define an intent with View Action
+Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("+url+"));
+startActivity(intent);

@@ -1,0 +1,3 @@
+com.google.android.gms:play-services
+
+It helps to integrate all Google Apis with our own app such as Google Cloud Messaging, Maps Api, You tube, AdSense Api etc. We just need to integrate the api key and project number for using these services. We can develop more user friendly and featured app using this library.
